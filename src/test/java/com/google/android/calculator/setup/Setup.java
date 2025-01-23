@@ -2,6 +2,8 @@ package com.google.android.calculator.setup;
 
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 import java.net.MalformedURLException;
@@ -30,8 +32,7 @@ public class Setup {
         androidDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
     }
 
-//    @AfterEach
-//    @AfterMethod
+    @AfterTest
     public void tearDown() {
         androidDriver.quit();
     }
