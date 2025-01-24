@@ -2,7 +2,7 @@
 
 This project automates functional testing of the Google Calculator app using **Appium**, **TestNG**, and **Selenium**. It follows a **Page Object Model (POM)** architecture for better modularity and maintainability.
 
-## Features : [Automation Video](https://go.screenpal.com/watch/cTV0Innfr9T)
+## 🖥️ Features : [Automation Video](https://go.screenpal.com/watch/cTV0Innfr9T)
 
 1. **Dynamic Series Calculation**
     - Automates series calculations on the Google Calculator app.
@@ -19,7 +19,7 @@ This project automates functional testing of the Google Calculator app using **A
 4. **Page Object Model (POM)**
     - Modular architecture for better code maintenance.
 
-## Project Structure
+## 🏗️ Project Structure
 
 ```
 src
@@ -44,7 +44,7 @@ src
 
 ```
 
-### Dependencies
+### 🛡️ Dependencies
 
 ```
 dependencies {
@@ -66,7 +66,7 @@ dependencies {
 
 ```
 
-## Prerequisites
+## 🔒 Prerequisites
 
 1. **Appium**
     
@@ -81,7 +81,7 @@ dependencies {
 3. **Gradle**
     - Ensure Gradle is installed and properly configured.
 
-## Steps to Run
+## 🚀 Steps to Run
 
 1. Clone the repository:
     
@@ -116,7 +116,7 @@ dependencies {
     ```
     
 
-## Allure Report
+## 📋 Allure Report
 
 Example Allure report includes:
 
@@ -124,11 +124,11 @@ Example Allure report includes:
 
 ![image](https://github.com/user-attachments/assets/22326665-e6e4-4862-a389-c3f25658982c)
 
-## Recorded Automation Process
+## 📽️ Recorded Automation Process
 
 Watch the automation process in action: [Automation Video](https://go.screenpal.com/watch/cTV0Innfr9T)
 
-## Key Highlights
+## 🌟 Key Highlights
 
 - Modular POM design for reusability and scalability.
 - Comprehensive test execution reports using Allure.
